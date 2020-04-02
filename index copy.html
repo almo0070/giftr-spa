@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <title>Giftr</title>
+</head>
+
+<body>
+    <header id="personHeader">
+            <h1>Gifter</h1>
+            <button id="add">ADD +</button>
+    </header>
+
+
+    <section class="page active" id="homePage">
+
+        <div id="personList" data-target="list">
+            <ul id="pList">
+
+            </ul>
+            
+        </div>
+        <div id="personForm" class="hideform">
+                    <span class="label" id="pnamelabel">Name:</span><br>
+                    <input type="text" id="pname" name="name" value="name"><br>
+                    <span class="label" id="pdatelabel">Birth Date:</span><br>
+                    <input type="date" id="bdate" name="bdate">
+                    <button id="savePerson">Save</button>
+                </form> 
+        </div>
+    </section>
+
+
+    <section class="page" id="giftPage">
+            <div  id="giftList" >
+                    <ul id="gList">
+                
+                    </ul>
+                   
+                </div>
+                <div id="giftDetails">
+        
+                    </div>
+                <div id="giftForm">
+        
+                </div>
+
+    </section>
+
+    <main>
+        <section id="left">
+            <div class="peopleList">
+
+            </div>
+        </section>
+
+        <section id="right">
+                <div class="addPeople">
+
+                </div>
+                <div class="addGift">
+
+                </div>
+                <div class="giftList">
+
+                </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/fontawesome.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <title>Giftr</title>
+</head>
+
+<body>
+    <header id="personHeader">
+            <h1>Gifter</h1>
+            <button id="add">ADD +</button>
+    </header>
+
+    <main>
+        <section class="page active homePage" id="left">
+            <div class="peopleList">
+                    <section class="page active" id="homePage">
+
+                            <div id="personList" data-target="list">
+                                <ul id="pList">
+                                </ul>
+                                
+                            </div>
+                            <div class="addPeople hideform">
+                                    <div id="personForm">
+                                        <span class="label" id="pnamelabel">Person Name:</span><br>
+                                        <input type="text" id="pname" name="name" value="name"><br>
+                                        <span class="label" id="pdatelabel">Birth Date:</span><br>
+                                        <input type="date" id="bdate" name="bdate">
+                                        <button id="savePerson">Save</button>
+                                    </div>
+                            </div>
+
+                            <div class="addGift hideform">
+                                    <div id="giftForm">
+                                            <span class="label" id="gnamelabel">Gift Name:</span><br>
+                                            <input type="text" id="gname" name="name" value="name"><br>
+                                            <span class="label" id="gpricelabel">Gift Price:</span><br>
+                                            <input type="text" id="gprice" name="price" value="price"><br>
+                                            <span class="label" id="gstorelabel">Gift Store:</span><br>
+                                            <input type="text" id="gstore" name="store" value="store name"><br>
+                                            <span class="label" id="glinklabel">Gift Link:</span><br>
+                                            <input type="text" id="glink" name="link" value="link"><br>
+                                            <button id="saveGift">Save</button>
+                                        </div>
+                            </div>
+                            <div class="giftList hideform">
+                                    <div  id="giftList" >
+                                        <ul id="gList">
+                                        
+                                        </ul>
+                                           
+                                        </div>
+                            </div>
+                    </section>
+            </div>
+        </section>
+
+        
+    </main>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>

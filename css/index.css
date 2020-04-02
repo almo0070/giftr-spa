@@ -1,0 +1,87 @@
+
+body{
+
+    margin: 0.1rem auto;
+}
+
+#personHeader{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.1rem auto;
+    width: 90%;
+}
+#homePage{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.1rem auto;
+    width: 90%;
+    /* flex-direction: column; */
+}
+
+#giftPage{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.1rem auto;
+    width: 90%;
+}
+
+#personList{
+width: 50%;
+margin: 0.5rem;
+border: 0.2rem solid black;
+}
+/* #personForm{
+width: 50%;
+margin: 0.5rem;
+border: 0.2rem solid black;
+} */
+.lperson{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lgift{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#giftList{
+    width: 100%;
+    margin: 0.5rem;
+    border: 0.2rem solid black;
+}
+
+.hideform{
+    display: none;
+}
+
+
+
+
+
+
+
+
+@media (max-width:800px){
+    #personHeader{
+        flex-direction: column;
+        /* justify-content: space-between;
+        align-items: center; */
+       
+    }
+    #homePage{
+        flex-direction: column;
+    }
+
+}
